@@ -56,6 +56,7 @@ interface SVGTransformList extends Object {
     insertItemBefore : () => SVGTransform;
     removeItem : () => SVGTransform;
     replaceItem : (transform : SVGTransform, index : number) => SVGTransform;
+    [index: number]: SVGTransform;
 }
 
 interface SVGAnimatedTransformList extends Object {
