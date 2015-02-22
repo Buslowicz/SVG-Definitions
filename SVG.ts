@@ -129,6 +129,19 @@ interface SVGRectElement extends SVGGraphicsElement {
     ry : SVGAnimatedLength;
 }
 
+interface SVGCircleElement extends SVGGraphicsElement {
+    cx : SVGAnimatedLength;
+    cy : SVGAnimatedLength;
+    r : SVGAnimatedLength;
+}
+
+interface SVGEllipseElement extends SVGGraphicsElement {
+    cx : SVGAnimatedLength;
+    cy : SVGAnimatedLength;
+    rx : SVGAnimatedLength;
+    ry : SVGAnimatedLength;
+}
+
 interface SVGGElement extends SVGGraphicsElement, Node {
 
 }
